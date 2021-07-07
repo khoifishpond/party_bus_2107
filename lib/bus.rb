@@ -6,4 +6,8 @@ class Bus
     @capacity = capacity
     @passengers = []
   end
+
+  def add_passenger(name)
+    @passengers << name
+  end
 end

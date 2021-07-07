@@ -14,7 +14,11 @@ class Bus
   def yell_at_passengers
     name_upcased = []
     @passengers.each { |passenger| name_upcased << passenger.upcase }
-    
+
     name_upcased
+  end
+
+  def number_of_passengers
+    @passengers.size
   end
 end
